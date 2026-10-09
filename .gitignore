@@ -1,0 +1,11 @@
+# Secrets and generated material
+config.json
+*.key
+*.pem
+certs/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/

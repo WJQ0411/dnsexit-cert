@@ -1,0 +1,33 @@
+{
+  "api_key": "YOUR-DNSEXIT-API-KEY",
+  "email": "admin@example.com",
+
+  "domains": [
+    "example.com",
+    "*.example.com"
+  ],
+
+  "directory_url": "https://acme-v02.api.letsencrypt.org/directory",
+
+  "output_dir": "./certs/example.com",
+  "key_type": "ecdsa",
+  "elliptic_curve": "secp256r1",
+  "rsa_key_size": 2048,
+
+  "ttl": 1,
+  "propagation_timeout": 300,
+  "propagation_interval": 10,
+  "dns_resolvers": ["1.1.1.1", "8.8.8.8"],
+  "doh": true,
+  "doh_resolvers": [
+    "https://cloudflare-dns.com/dns-query",
+    "https://dns.google/dns-query"
+  ],
+  "skip_propagation_check": false,
+  "finalize_timeout": 120,
+  "no_cleanup": false,
+
+  "zones": {
+    "example.com": "example.com"
+  }
+}

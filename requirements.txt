@@ -1,0 +1,10 @@
+# Runtime dependencies for acme-dnsexit.
+#
+# On Debian/Ubuntu these are also packaged as python3-acme, python3-josepy,
+# python3-cryptography, python3-dnspython and python3-requests.
+acme>=2.0
+cryptography>=42.0
+josepy>=1.13
+dnspython>=2.2
+requests>=2.25
+nuitka>=4.0.0
